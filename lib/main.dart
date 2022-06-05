@@ -8,7 +8,16 @@ void main() {
 
 class MyApp extends StatelessWidget {
   List<Location> locations = [
-    new Location(city: "calgary", country: "canada", lat: "51.0407154", lon: "-114.1513999")
+    new Location(
+        city: "calgary",
+        country: "canada",
+        lat: "51.0407154",
+        lon: "-114.1513999"),
+    new Location(
+        city: "edmonton",
+        country: "canada",
+        lat: "53.5365386",
+        lon: "-114.1513999")
   ];
 
   @override
